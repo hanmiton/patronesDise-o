@@ -1,0 +1,1 @@
+notas inicicales patrones de diseño
