@@ -56,3 +56,62 @@ comunicacion
 Informacion patrones de diseño
 	posa (clasico para referencai de patrones)
 	martin folder(pattern for enterprise applications)
+
+Patrones
+	ver patters of enterprise application arquitecture
+	"Cada patrón describe un problmea que ocurre una y otra vez en nuesto mmedio amiente y, a conitnuacion describe el nucleo d ela solucion a ese problema, de tal manera qeu se pueda tulizar esta solucion un llion de veces, sintener que hacerlo de la misma manera dos veces"
+Que es patron ingenieria de software
+	Describe una solucion reutilizable a un problmea comun en un contexto dao.
+	Se enfoca en la solucion, no en el problema
+	Identifica responsabilidaddes e interaciciones entre los particpantes.
+que no es
+	paradigma de programacion
+		programacion objetos
+		programacion funcional 
+		logica
+	no es un silver bullet
+	no es una solucion inefectiva y riesgosa (soluciones probadass)
+	no resuelve un problema especifico
+	no depende del legunaje de programacion
+Para q sirve patron de diseño?
+	Vocabulario y entendimiento común para el diseño de software
+	- Alternativas de diseño para que sea flezible y reutilizable
+	- Construir arquitecturas de fotware complejas y heterogeneas
+	- favorece la vida y amntenibilidad de una plicacion
+Patron Layers
+	patron de arquitectura
+	layer como un stack (cada capa tiene comunicacion)
+	app grande que necesita descomposicion
+	- grupos de subtareas
+	Participantes
+		Clase
+			clase en este caso layer
+		Colaborador
+			clase ocn la que se comunica
+		Responsabilidad
+			las responsabilidades q tiene dicha capa
+	layers
+		cliente
+		Layer N (alta abstraccion)
+		.
+		.
+		Layer 1 (capa de abstracicon mas basica)
+	Ejemplo ptron layers
+		Capara presentacion
+			interfaz de usuario
+		Capa Logica
+			negoico funcional
+		Capa de datos
+			almacenamiento de datos
+	modelos osi
+		va respuestas arriba hacia abajo
+		y devuleve de abajo hacia arriba
+	cada layer tiene servicios q da a su capa superior y a su vez se apoya de sus capas inferiores para construir su logica interna
+
+SOA
+	Service oriented arquitecture
+
+Patron layer
+	independencia de las piezas
+	malo
+		dependencia capa inferior
