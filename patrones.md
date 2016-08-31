@@ -360,3 +360,23 @@ Patrones de estrutura
 			define una interfaz existente qeu necesita adaptarse
 		Client
 			interactau con el target (target interacuta con el adpater)
+
+Patron Facade
+	encapsular toda la compelijidad provee una interfaz simpoel a un subsistema complejo
+
+Flightweigth
+	para q el codigo sea menos efectivo y mas efeciente
+Interface
+	repositori
+	descripcion de metodos los cuales se enetnra definido en una clase
+Inyeccion de dependencias es un principio(SOLID)
+
+Principios SOLID de DOO
+	S Una clase debe tener una y solo una razon para cmabiar
+	O Deberia poder de extender comportameinde clases sin modificarlo
+	L Las clases derivadas de ben ser sustituibles por sus clases base
+	I Hacer interfaces detalladas que son especificas del cleinte
+	D Depende de abstracciones, no de ocncreciones
+UML
+	...............
+	definir casos de usos
