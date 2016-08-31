@@ -156,3 +156,87 @@ Categorias de ptraones (POSA)
 			uso de lenguaje
 			convenciones nombrado
 				usar el lenguaje
+Clasificacion de patrones de diseño
+(GoF)
+	Proposito
+		Refleja lo que hace un patron
+		Patrones de creacion
+			objetos
+		Estructura
+			componer clases u objetos mas complejos
+		comportamiento
+			interaccion entre calses y objesto dependendiendo de la responsabildiad
+	Alcance
+		se aplica a objeto o clases
+		patrones de clases y objetos
+			clases
+				teimpo compilacion
+				tiempo ejecuion
+			objetos
+				instancio como va interactuar
+
+Divison patrones
+	(proposito,alcance)
+	(Creacion,Clase)
+		FactoryMethod
+	(Estrucutra,clase)
+		adpater
+	(comportamiento,clase)
+		Interpreter
+		template method
+	(creacion, objeto)
+		Abstract factory
+		builder
+		prototype
+		singleotn
+	(estructura,objeto)
+		adapter
+		bridge
+		composite
+		decorator
+		facade
+		fleweight
+		proxy
+	(comportamient,objeto)
+		chain of repsoilbility
+		command
+		iterator
+		mediator
+		memento
+		observer
+		state
+		startegy
+		visitor
+Patrones de diseño (creacionales)
+	FactoryMethod
+		Crea una instancia de varias clases derivadas
+		clase bases se crean varias clases
+		abstraer forma correcta de instanciar
+		indireccion
+	Abstract Factory
+		Crea una instancia de varias familias de clases
+		ejemplo animales mamiferon, no mamiferos, de hay crearmos mas clases de distintos tipso
+	Builder
+		Serara la construcicon de un objeto de su representacion
+
+	Prototype
+		a fully initialized instance to be copied or cloned
+		generacion de prototipos
+		previamente inicializados
+		clonar y copiar
+
+	Singleton
+		Aclass of which only a single instance can exist
+		asegurar q solo exista una instancaid entro de toda la app
+		Conexion base de datos
+			objeto unico y establecer base de datos
+Patron Builder
+	Builder class
+		interface abstracta para crear parte de un objeto
+	ConcreteBuilder
+		construi y poner juntas partes de un producto y implementa builder interface
+	Director class
+Ciclo builder
+Director->Builder->ConcreteBuilder->Product
+
+//ver clases abstractas javascript (no es recomendable)
