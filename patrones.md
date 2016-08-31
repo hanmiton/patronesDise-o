@@ -257,3 +257,94 @@ Builder
 		duplicidad de clases
 
 Recomendacon lengujaes oreintados a objetos
+
+Patron mas recomendado pra web
+	MVC
+
+------------pregutas y respuestas 2 
+
+asociar nombre mas de negocio donde se va utilizar
+
+patornes
+	dividimos en 3 bloques
+		cmo creo un objeto
+			igual se lo usa en lengujaes funcionales
+		partonre sde comportameinto
+			paradigma funcional
+				interaccion muy nautral
+
+builder
+	tenga diferentes paretes
+		cada parte se la crea dinamicamente
+	el builder no se gnera la instancia en el memoento
+	si no se añaden los componentes dinamicamente
+
+patrones para bases de datos
+	data access layer
+	data access object
+MIT
+	Programcion funcional
+patrones mas usados
+	mvc
+	strategy (poder identificar algoritomos independiente mente dle objeto)
+	observer(comunicacion de un objeto ocn otors que estan escuchando)
+singleton
+	te da la misma instancia del objeto
+		integiradad instacia
+		integridad de la inforamcion
+
+Fatory method(interface)
+	Product
+		objeto qeu se desea construir
+	ConcreteProduct
+		implementacion de la interface producto
+	Creatro(FActory)
+		fabrica de los metodos
+	ConcreteCreator
+		sobreescribe el metodo
+
+Abstract factory
+	biblioteca de clases de productos
+	creacion de clases(noproductos para eso usamos factory method)
+	Abstract Factory
+		delcara una interfaz
+	ConcreteFactory
+		implementa operacoines para crear product ocncretos
+	AbstractProduct
+		declara una interfaz para un tipo de objetos
+	Product
+
+Singleton
+	nos van ayudar a construir objetos
+	conexines base de datos
+factory metohod 
+	el mas usasdo
+builder cunado el objeto es muy complejo
+
+Notas patrones de creacion
+|Abstract factory tien eel objeto factry produciendo objetos de varias clases
+	Builider
+		tiene el objeto factroy construyendo un porducto incrementalmente suando una estructura compleja
+	AbstractFactry
+		A menudo osn implementadas uasando Factory Methods pero tambien pueden ser implmenentadas usando Prototype
+	Builider
+		construir objetos complejos paso ap os
+	Abstract FActory
+		familia de objetos 
+
+Patrones de estructura
+	Adapter
+		Relaiona interfaces de diferentes calses
+	Bridge
+		Separa la interfaz de un ojeto de su implementacino
+	Composite
+		Estructra de arbol de objeto ssimples y compuestos
+	Decoradtor
+		Añadir responsabilidades a los objetos dinamicamente
+	Facade
+		Una unica clase que representa todo un subsistema
+	Flyweight
+		Una instancia usada para comparticion eficiente
+	Proxy
+		Un objeto q representa a otro objeto
+Patrones de estrutura
