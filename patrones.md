@@ -115,3 +115,44 @@ Patron layer
 	independencia de las piezas
 	malo
 		dependencia capa inferior
+
+Categoiras y patrones de diseño
+	libros(posa,...)
+
+Sintomas mal diseño
+	- Rigidez
+		Dificil de modificar
+	- Fragilidad
+		una modificacion afecta a los demas modulos
+	- Inmovilidad
+		Que si se mueve a dicho modulo daña todo
+	- Viscosidad
+		Dificil hacer q fluja la informacion diferentes componentes
+
+Principios SOLID de DOO
+	- Principio de reponsabilidad unico
+		solo va tener una razon para poder modificarse
+	- open closed Principle
+		clases facilmente extensibles y cerradas para q no se modifiquen
+		herencia adecuada
+	- principio subsitucion liskov
+		poder definir clases derivadas deben ser sustituibles por la clases base
+	- principo de segregacin interface
+		hacer interfaces segregadas especificas del cliente
+	- principio inversion de dependencia
+		depender de las abstraccion de las clases bases y no de las derivadas
+
+Categorias de ptraones (POSA)
+	Patrones de artuitecuta
+		layers, mvc eda
+			sistema grande en subsistemas y la comunicacion y realcion existente
+	Patrones de diseño
+		factorey method, Facade, Strategy, Observer
+			mas especializados
+			como cada modulo esta implementado
+			comunicacion para solucion
+		Idioms/modismos
+			Menjo de memoria
+			uso de lenguaje
+			convenciones nombrado
+				usar el lenguaje
