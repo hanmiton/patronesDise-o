@@ -240,3 +240,20 @@ Ciclo builder
 Director->Builder->ConcreteBuilder->Product
 
 //ver clases abstractas javascript (no es recomendable)
+
+controller ve la comunicacion entre layers
+
+layers
+	ventaja
+		dividir
+		exponer servicios
+	desventaja
+		dependencia aservicios expuestos
+Builder
+	ventaja
+		cliente no conoce como se construye el objeto
+		se delega construccion al builder
+	desventaja
+		duplicidad de clases
+
+Recomendacon lengujaes oreintados a objetos
