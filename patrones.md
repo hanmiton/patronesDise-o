@@ -348,3 +348,15 @@ Patrones de estructura
 	Proxy
 		Un objeto q representa a otro objeto
 Patrones de estrutura
+	Adapter
+		como un adaptador
+		Relaciona dos componente qeu no tiene una interfaz ocmun
+
+		Target
+			interfaz de dominio especifico que utiliza Client
+		Adapter
+			adpta la interfaz Adaptee para la interfaz de destino
+		Adaptee
+			define una interfaz existente qeu necesita adaptarse
+		Client
+			interactau con el target (target interacuta con el adpater)
