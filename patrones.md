@@ -135,7 +135,7 @@ Principios SOLID de DOO
 	- open closed Principle
 		clases facilmente extensibles y cerradas para q no se modifiquen
 		herencia adecuada
-	- principio subsitucion liskov
+	- principio subsitucion lislov
 		poder definir clases derivadas deben ser sustituibles por la clases base
 	- principo de segregacin interface
 		hacer interfaces segregadas especificas del cliente
@@ -395,3 +395,144 @@ Decorator
 		mantienre una referendai al objeto Componet y fefine una intrefaz que cumple con la intrefaz de Component
 	Concrete Decorators
 		exteinde la funcionalidad de component
+ adapter 
+ 	modifica la interfaz
+ proxy
+ 	toma objeto intermiedo y añada ciertas funionlaidades
+ decoratro
+ 	aumenta 
+ 	interfaz similar pero la instacia tiene valor adicional
+ facade y singleton
+ 	no se necesita mas de una instancia q me permita dicha interaccion
+Patrones de ocmportamiento
+	Chain of responsability
+		Capacidad poder encadernar una seri de objetos para pasarles al misma peticionSS
+		Accin se ejecutra en los metodos
+	Command
+		Encapsualr una peticon de ocmandos como un objeto
+		Una accin se encapsula dentro de una clase
+	Interprete
+		Incluir elemento sdel lenguaje en un programa
+	Iterator
+		Acceso secuencias a los elementos de una coleccion
+	Mediator
+		Define una comunicacino simplificada entre clases
+	Memento
+		Captura y restarua el estado interno de un objeto en ejecucion
+		Guarda estado del objeto por cada avance para permitir regreso
+	Observer
+	State
+		como maquina de estado
+		wizzard cambienado la interaccin que itene ocn el de acuerdo a l estado en que esta
+	Template mehtod
+		Difiere los pasos exactos de un algoritmos a una sublcase
+Patron command
+	(Action, Transaction)
+	Especificar, encolar y ejecutra peticiones en diferentes eimpos
+	Callbacks
+	Command
+		Declara una intrefaz para ejecutra una opoeracion
+	ConcreteCommand
+		Exteinde Command
+		Implementa metodo execuete
+		REceiver
+			Sabe ocmo se deben ejecutra las operaciones
+	Invoker
+Patron Observer
+	Dependets, Publish-Subscribe
+	Notifica a participantes y ya pueden realizar la operacion cuando se cambia de estado
+	Dependencia de uno a muchos
+
+Observer
+	Observable
+		Declara una intrefaz apra añadir oremover Observers del cliente
+	ConcreteObservable
+		Extiende Observable. Mantiene el estado del objeto y cuano cambia, notifica a los Observers ligados
+	Observer
+		Interfaz q define las operaciones a ser usadas para notificas a seste objeto
+	ConcreteObserverA, Concrete Observer2
+	Implementacino concretas de Observer
+		Metodo notify
+			seencarga de correr a toda la lista de observer que se haayn registrado en el 
+Strategy
+	Stratygy
+		delcara la interface
+	Concrete Strategy
+		Cada concrete straetgy implementa el algoritmo
+	Context
+		manteine la referecncia dle objeto
+		y dice si se ejecuta uno o el otro
+Chain of responsibility
+	puede usar command para regrepsentar peticones como objetos
+bojetos Stare a menudo don Singleotns
+
+Strategy te permite cmabiar la parte interna de un objet, mientras de Decoratro lo hace externamente
+
+MVC
+|dificir en tres componente s
+	modelo 
+	vista 
+	controlador
+		implementacon de un patron observer
+		controller indica que algo cmabio y model y view son los q esta a escucha
+Event-driven-Arquitectura
+	emitters
+		recojeon lso eventos
+	channels
+		conductos por donde va el mensaje
+	consumirs 
+		son los que consumen los eventos
+Diferencia 
+	Extendemos creando nueva clases y objetos con eso especifico
+	decorator
+		a una instancia le estamos añadiendo un comportameinto
+Core j2ee patterns
+	leer para empezar la programcacin en java
+Ver patron DAO
+Pregutnas
+
+State patorn
+El patrón de diseño State se utiliza cuando el comportamiento de un objeto cambia dependiendo del estado del mismo
+
+Medietro
+El patrón mediador define un objeto que encapsula cómo un conjunto de objetos interactúan
+Proxy
+El patrón Proxy es un patrón estructural que tiene como propósito proporcionar un subrogado ... puedan usar de manera indistinta. La clase SujetoReal: clase del objeto real que el proxy representa
+Strategy
+El patrón Estrategia (Strategy) es un patrón de diseño para el desarrollo de software. Se clasifica como patrón de comportamiento porque determina cómo se debe realizar el intercambio de mensajes entre diferentes objetos para resolver una tarea. El patrón estrategia permite mantener un conjunto de algoritmos de entre los cuales el objeto cliente puede elegir aquel que le conviene e intercambiarlo dinámicamente según sus necesidades.
+Patrones arquitectura
+Programación por capas
+Tres niveles
+Pipeline
+Invocación implícita
+Arquitectura en pizarra
+Arquitectura dirigida por eventos, Presentación-abstracción-control
+Peer-to-peer
+Arquitectura orientada a servicios
+Objetos desnudos
+Modelo Vista Controlador
+Singleton
+	es un patrón de diseño diseñado para restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto.
+
+Su intención consiste en garantizar que una clase sólo tenga una instancia y proporcionar un punto de acceso global a ella.
+Visitor
+	En programación orientada a objetos, el patrón visitor es una forma de separar el algoritmo de la estructura de un objeto.
+
+Falladas (estudiaar)
+	En que se enfoca un patron
+		-----
+	Posa categorias
+		arquitecture,creacion,comportameinto
+	Que patron de arquitectrau regresa el objeto de inmediato
+		factory method
+	Que patorn de diseño ayudan a relacionar  2 objeton sin intreface comun
+		facade
+	Que patron de disñeo serap la interface de la implementacion 
+		facade
+	En que caso utilizamos el paton Strategy
+		para 2 algoritmos independientes
+	Que patorn me permite definir un nueva operacion de la clase sin cambiarla
+		---------
+	Que patorn me ayuda encapsular una petion como objeto
+		request
+hola
