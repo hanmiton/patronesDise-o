@@ -380,3 +380,18 @@ Principios SOLID de DOO
 UML
 	...............
 	definir casos de usos
+
+Decorator
+	Añada reponsabilidades al los objetos de forma dinamica
+	tambien connociodo como wrapper
+	adjuntar responsabilidaddesa adicionales a un objeto de fomra dinamica
+	proporciona uana alterantiva
+	Compoente
+		Intrefaz para objetos que peuden tener rersposabildladdes aañadidas dinamicamente
+	ConcreteComponent
+		Define un objeto al cual se le puede ñadir
+		responsabilidades adicionales
+	Decorator
+		mantienre una referendai al objeto Componet y fefine una intrefaz que cumple con la intrefaz de Component
+	Concrete Decorators
+		exteinde la funcionalidad de component
